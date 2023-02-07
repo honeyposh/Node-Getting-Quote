@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: purple;
+  height: 100%;
+  width: 100%;
+}
+
+.quote {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.border {
+  margin-top: 50px;
+  margin-left: 150px;
+  height: 80vh;
+  width: 80vw;
+  color: white;
+  padding-top: 20px;
+  font-size: 25px;
+}
+button {
+  height: 40px;
+  width: 15%;
+  background-color: purple;
+  border: 1px solid white;
+  outline: none;
+  color: white;
+}
+.border h2 {
+  margin-left: 170px;
+  margin-top: 200px;
+  /* height: 30vh; */
+  /* width: 50vw; */
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  text-align: right;
+  padding-right: 150px;
+  margin-bottom: 500px;
+}
